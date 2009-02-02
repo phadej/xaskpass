@@ -16,10 +16,6 @@ CPPFLAGS	+= -I${XDIR}/include
 LDFLAGS		+= -L${XDIR}/lib ${LIBS}
 CFLAGS		+= -Wall -Wextra -ansi -pedantic
 
-ifeq "$(origin CC)" "default"
-CC		= gcc
-endif
-
 TARGET          = xaskpass
 
 ARCHIVE		= ${TARGET}.tar.gz

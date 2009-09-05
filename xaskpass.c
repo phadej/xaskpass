@@ -34,7 +34,7 @@
    OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
    WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-*/ 
+*/
 
 #include <X11/Xlib.h>
 #include <X11/Xutil.h>
@@ -138,7 +138,7 @@ int main(int argc, char *argv[])
 	if (!font_info) {
 		fprintf(stderr, "%s: failed to load font '%s'", getprogname(), font_name);
 		return 1;
-	}    
+	}
 
 	/* Get the colors */
 	c_black = BlackPixel(disp, DefaultScreen(disp));
